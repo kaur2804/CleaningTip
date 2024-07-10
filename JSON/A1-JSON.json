@@ -1,0 +1,49 @@
+{
+	"Fall2023" : {
+		"formalName" : "Jaspreet Kaur",
+		"collegeID" : "991678673",
+		"collegeLogin" : "kau13055",
+		"collegeProgram" : "Computer Programming",
+		"collegeCampus" : "Davis",
+		"formalPic" : "./images/mypic.png"
+	},
+	"citeReferenceRecipes" : "https://www.goodhousekeeping.com/home/cleaning/tips/a24885/make-at-home-cleaners/",
+	"citeReferenceImages" : "https://www.walmart.ca/en",
+	"cleaners": [
+		{
+			"cleanerName" : "All Purpose Scented",
+			"components" : ["White Vinegar", "Water", "Lemon Rind", "Rosemary Sprigs"],
+			"directions" : "Combine all into a spray bottle; Shake and let infuse a week",
+			"caution" : "Do not use on granite",
+			"imgPic" : "graphicAllPurpose.png"
+		},
+		{
+			"cleanerName" : "Glass Cleaner",
+			"components" : ["2 cups Water", "1/2 cup White Vinegar", "1/4 cup alcohol", "2 drops Orange essential oil"],
+			"directions" : "Combine all into a spray bottle; Shake well",
+			"caution" : "Avoid cleaning windows on a hot, sunny day or in direct sunlight",
+			"imgPic" : "graphicGlassCleaner.png"
+		},
+		{
+			"cleanerName" : "Brass Cleaner",
+			"components" : ["White Vinegar", "Table Salt"],
+			"directions" : "Dampen sponge with vinegar then sprinkle on salt; lightly rub over surface",
+			"caution" : "Rinse thoroughly with water and immediately dry",
+			"imgPic" : "graphicBrassCleaner.png"
+		},
+		{
+			"cleanerName" : "Grease Cleaner",
+			"components" : ["1/2 cup Sudsy Ammonia", "1 gallon Water"],
+			"directions" : "Combine water and ammonia into a container; dip in sponge and wipe surface; rinse with clear water",
+			"caution" : "Avoid using on aluminum",
+			"imgPic" : "graphicGreaseCleaner.png"
+		},
+		{
+			"cleanerName" : "Marble Cleaner",
+			"components" : ["2 drops Dishwashing Liquid", "2 cups warm Water"],
+			"directions" : "Combine all into a spray bottle; Sponge over marble and rinse completely; buff with a soft cloth",
+			"caution" : "Do not let marble air dry",
+			"imgPic" : "graphicMarbleCleaner.png"
+		}
+	]
+}

@@ -1,0 +1,167 @@
+ 
+body {
+  background-color:#FF33BA; 
+  font-family: Arial, sans-serif;
+}
+
+ 
+header {
+  background-color: #f1f1f4; 
+  color: #FF33BA;
+  padding: 2px;
+  text-align: center;
+  text-decoration:double;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+ 
+.btn , .btn1{
+  background-color: #e0e8e0; 
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 2px solid rgb(237, 9, 165);
+  width:80px;
+}
+.btn{
+  margin-left:20px;;
+}
+
+ 
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+ 
+section {
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   
+}
+ 
+#cleanerName li {
+   
+  list-style-type: none;
+    display:flex;
+	font-size: 1.5em; 
+  font-weight: bold; 
+   margin:10px;
+}
+@media screen and (orientation: portrait){
+#cleanerName{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+}
+@media screen and (orientation: landscape) {
+  #cleanerName  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:5px;
+   
+    
+  }
+}
+ 
+
+ 
+ 
+h3{
+  text-align: center;
+
+}
+h3::first-letter {
+  font-size: 1.5em; /* Adjust the size as needed */
+  text-transform:initial; /* Convert to uppercase */
+  font-weight: bold; /* Optionally, make it bold */
+  /* Add any other styles you want */
+}
+
+ 
+#goBack {
+  background-color: #6f14ef; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width:200px;
+}
+.btn3{
+  text-align:center;
+}
+
+ 
+#goBack:hover {
+  background-color: #444;  
+}
+
+@media screen and (orientation: landscape) {
+  #goBack{
+    width:300px;
+  
+  }
+}
+#image{
+ text-align: center;
+
+}
+div img{
+  width:50px;
+  height:50px;
+  border: 2px double #f5f2f4;
+  background-color: #f1f1f4;
+ 
+}
+#img1, #img2{
+  display: flex;
+  width:75px;
+  height:60px;
+}
+
+#index{
+  font-weight: bold;
+  background-color:white ; /* Button background color */
+  color: rgb(237, 9, 165); /* Text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded corners */
+   
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 16px; /* Set the font size */
+}
+   
+@media screen and (orientation: portrait) {
+#index{
+  display:flex;
+  justify-content: center;
+  padding: 5px 20px;  
+  font-size: 16px;  
+  margin-right: 10px;  
+}}
+@media screen and (orientation: landscape) {
+#index {
+  width:140px;
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  flex-direction: row;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+}
+#index:hover {
+  background-color: #881fea;  
+  padding: 10px;
+}
